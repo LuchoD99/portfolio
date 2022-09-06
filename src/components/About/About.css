@@ -1,0 +1,25 @@
+.about-container {
+    display: flex;
+    background-color: #fff;
+    color: #000;
+    height: 70vh;
+    padding: 100px 0 100px 0;
+    background-color: #3a668b;
+}
+.about-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 0 100px 0 100px;
+}
+.about-desc > h3 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+.about-img {
+    width: 45px;
+    border-radius: 50px;
+    display: flex;
+    align-self: center;
+}

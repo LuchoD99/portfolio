@@ -11,13 +11,20 @@ export default function Silder() {
             </div>
             <Carousel
                 arrows
-                slidesPerPage={3}
+                slidesPerPage={2}
                 infinite
                 animationSpeed={200}
                 centered
                 offset={50}
                 itemWidth={400}
                 slides={slides}
+                breakpoints={{
+                    960: {
+                        slidesPerPage: 1,
+                        arrows: false,
+                        itemWidth: 250,
+                    },
+                }}
             />
         </div>
     );

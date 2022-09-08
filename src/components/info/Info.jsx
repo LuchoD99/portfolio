@@ -5,6 +5,7 @@ export default function Info() {
         <div className="info-container">
             <div className="info">
                 <h1>Informacion</h1>
+                <div class="arrow"></div>
             </div>
         </div>
     );

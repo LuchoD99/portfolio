@@ -12,7 +12,7 @@ export default function Cover() {
                 loop
                 muted
             ></video> */}
-            <p className="video"></p>
+            {/* <p className="video"></p> */}
             <h1>Luciano Ezequiel Diaz Ocampo</h1>
             <p>Full Stack Developer</p>
         </div>

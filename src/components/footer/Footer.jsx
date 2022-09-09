@@ -3,13 +3,13 @@ import './Footer.css';
 export default function Footer() {
     return (
         <footer className="footer">
-            <div className="footer-info">
+            {/* <div className="footer-info">
                 <h1>Luciano Ezequiel Diaz Ocampo</h1>
             </div>
             <div className="footer-contact">
                 <h3>Contactame</h3>
                 <p>Contasctos</p>
-            </div>
+            </div> */}
             <div className="footer-sns">
                 <div className="design-by">Luciano Ezequiel Diaz Ocampo</div>
                 <div className="sns-links">

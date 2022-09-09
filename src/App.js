@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import About from './components/About/About';
 import Silder from './components/slider/slider';
 import Info from './components/info/Info';
-import Footer from './components/footer/Footer';
+// import Footer from './components/footer/Footer';
 import Skill from './components/Skill/Skill';
 function App() {
     const [scrollHeight, setScrollHeight] = useState(0);
@@ -24,7 +24,7 @@ function App() {
             <Skill />
             <Silder />
             <Info />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

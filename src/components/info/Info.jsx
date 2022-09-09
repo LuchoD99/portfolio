@@ -1,6 +1,7 @@
 import React from 'react';
 import './info.css';
 import '../footer/Footer.css';
+const { TELEFONO } = process.env;
 export default function Info() {
     return (
         // <div className="info-container">
@@ -35,12 +36,12 @@ export default function Info() {
                         // width="40px"
                     />
                 </a>
-                <a href="https://wa.me/541164771109" target="blank">
+                <a href={`https://wa.me/${TELEFONO}`} target="blank">
                     <img
                         className="whatsapp"
                         align="center"
                         src="https://www.vectorlogo.zone/logos/whatsapp/whatsapp-icon.svg"
-                        alt="https://wa.me/541164771109"
+                        alt={`https://wa.me/${TELEFONO}`}
                         // height="30px"
                         // width="40px"
                     />
